@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #1a1a2e;
+  --bg-color: #121244;
   --text-color: rgba(255, 255, 255, 0.85);
   --icon-color: rgba(255, 255, 255, 0.7);
 }
@@ -15,16 +15,16 @@ body {
 }
 
 .profile-pic {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 60%;
   object-fit: cover;
-  border: 3px solid rgba(255, 255, 255, 0.2);
+  border: 4px solid rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease;
 }
 
 .profile-pic:hover {
-  transform: scale(1.05);
+  transform: scale(1.10);
   border-color: rgba(255, 255, 255, 0.4);
 }
 
